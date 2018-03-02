@@ -6,7 +6,7 @@
   <link href="/burogu/atom.xml" rel="self"/>
   
   <link href="https://crs.mainstars.net/burogu/"/>
-  <updated>2018-02-25T13:38:15.982Z</updated>
+  <updated>2018-03-02T23:30:00.000Z</updated>
   <id>https://crs.mainstars.net/burogu/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GithubPages + Hexo 博客建设教程</title>
+    <link href="https://crs.mainstars.net/burogu/2018/03/03/GithubPages-Hexo/"/>
+    <id>https://crs.mainstars.net/burogu/2018/03/03/GithubPages-Hexo/</id>
+    <published>2018-03-02T23:00:00.000Z</published>
+    <updated>2018-03-02T23:30:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>这篇文 详细 的写了如何在GithubPages的基础上架设Hexo博客.<br><a id="more"></a></p><h2 id="没什么用的前言"><a href="#没什么用的前言" class="headerlink" title="没什么用的前言"></a>没什么用的前言</h2><p>感觉网上很多教程写的不怎么详细, 我在部署的时候也遇到了不少坑.<br>所以我想记录一下那些造成麻烦的细节, 至于有没有人看到就无所谓了. (自娱自乐ing)</p><h2 id="相比WordPress-Typecho的优劣"><a href="#相比WordPress-Typecho的优劣" class="headerlink" title="相比WordPress/Typecho的优劣"></a>相比WordPress/Typecho的优劣</h2><p>GithubPages + Hexo的组合稳定性更强(纯静态页, 把源文件备份好就不会有问题),<br>但也因此丧失了一些便利性(直接在网页上码字/管理是Hexo不具备的).</p><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>默认认为读者有一定耐心, 稍微会点英文或能熟练使用机翻, 了解电脑基础知识且使用Windows系统.<br>username.github.io实在很难看, 所以我推荐购买一个域名. 没考虑好IDC的话, 可以尝试<a href="http://shop.mainstars.net" target="_blank" rel="noopener">shop.mainstars.net</a>(专业硬广)</p><h3 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h3><p>前往 <a href="https://git-scm.com/download/win" target="_blank" rel="noopener">https://git-scm.com/</a> 下载, 下载后直接运行安装即可.<br>重启电脑后会发现右键菜单多了”Git GUI”, “Git Bash”等工具.</p><h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><p>前往 <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/</a> 下载, 双击运行安装.</p><h3 id="注册-Github"><a href="#注册-Github" class="headerlink" title="注册 Github"></a>注册 Github</h3><p>前往 <a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a> 进行注册. 如果已经有账号可以直接略过.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这篇文 详细 的写了如何在GithubPages的基础上架设Hexo博客.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="折腾" scheme="https://crs.mainstars.net/burogu/categories/%E6%8A%98%E8%85%BE/"/>
+    
+      <category term="教程" scheme="https://crs.mainstars.net/burogu/categories/%E6%8A%98%E8%85%BE/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="Hexo" scheme="https://crs.mainstars.net/burogu/tags/Hexo/"/>
+    
+      <category term="GithubPages" scheme="https://crs.mainstars.net/burogu/tags/GithubPages/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Re: Start</title>
+    <link href="https://crs.mainstars.net/burogu/2018/03/03/Re-Start/"/>
+    <id>https://crs.mainstars.net/burogu/2018/03/03/Re-Start/</id>
+    <published>2018-03-02T16:30:00.000Z</published>
+    <updated>2018-03-02T16:30:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="又一个新的Blog架好了"><a href="#又一个新的Blog架好了" class="headerlink" title="又一个新的Blog架好了."></a>又一个新的Blog架好了.</h2><a id="more"></a><p>这个大概算是第四代, 前三代死因:<br>WSKaCrs.NET/WSNET 2016-2017: 想换域名乱改数据库导致500, 无奈删库跑路.<br>C.R.S’S (ZeroNet版) 201707-201711: 安装ZeroNet才能访问, 自定义有许多限制, 外网镜像经常挂.<br>C.R.S’S (Typecho版) 201801-201802: 服务器莫名其妙所有文件变成只读, 水平不够没法修.</p><h2 id="那么怎么样才能保持网站稳定呢"><a href="#那么怎么样才能保持网站稳定呢" class="headerlink" title="那么怎么样才能保持网站稳定呢?"></a>那么怎么样才能保持网站稳定呢?</h2><p>说到稳定还不要钱, 当然就是白嫖GithubPages的空间了. 不限流量, 超赞的.<br>本来打算用Jekyll, 后来一看比较复杂就懒得用了, 就Hexo吧. 这主题我也比较熟悉了.<br>至于CodingPages和其他杂七杂八的, 从稳定性来说根本就无法和Github相提并论.</p><h2 id="修改名称"><a href="#修改名称" class="headerlink" title="修改名称"></a>修改名称</h2><p>CRS’ Space(C.R.S’S)这个名称感觉还是不太适合博客用.<br>想了想把博客的日文”ブログ”转成罗马音”Burogu”, 合在一起就是CRS’ Burogu.<br>设置为CRS’ Space的一个子类, 原来的CRSS就给了<a href="https://crs.mainstars.net">https://crs.mainstars.net</a>这个导航页.<br>至于域名wska.mainstars.net, 我打算做一个关于页面(短期内不会做出来, 毕竟要cool就要一堆动效)</p><h2 id="更多功能-更多繁琐-更多折腾"><a href="#更多功能-更多繁琐-更多折腾" class="headerlink" title="更多功能, 更多繁琐, 更多折腾"></a>更多功能, 更多繁琐, 更多折腾</h2><p>不愧是还在开发的版本, 小功能就是比Typecho上的多.<br>右上角那个步骤按钮我心水很久了…</p><h2 id="麻烦的留言功能"><a href="#麻烦的留言功能" class="headerlink" title="麻烦的留言功能"></a>麻烦的留言功能</h2><p>那几个看上去就活不长的评论功能我直接就不考虑了, DISQUS被墙,<br>想了想干脆用Github issues作评论算了.<br>界面勉强算美观和支持中文是我用gitalk的原因, gitment只有英文直接不考虑.<br>只会用Google翻译的英语渣想搞个东西是真的难…<br>在config里配置了一下, 迷之Error: Not Found  Error: Validation Failed二连把我难住了.<br>怀念Typecho的原生评论.</p><h2 id="文件托管-主题更新"><a href="#文件托管-主题更新" class="headerlink" title="文件托管 / 主题更新"></a>文件托管 / 主题更新</h2><p>用几天的时间了解了一下Hexo, 我选择了稳定性最高的方案——源文件和生成文件全部放在Github.<br>如你所见(<a href="https://github.com/wskacrs/burogu" target="_blank" rel="noopener">https://github.com/wskacrs/burogu</a>), master分支存放源文件, gh-pages分支存放生成文件.<br>如果我格盘重装系统(最近很有可能发生)或者换了电脑, 只需要从Github把源文件下载会来重新部署就可以.</p><p>因为Hexo-Material主题还是满足不了我瞎折腾的心, 这次我也会修改成Materialw.<br>修改项多了以后会单独发个帖子作为主题引导页, 这次所有文件都放在Github所以需要的话还请自行提取.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;又一个新的Blog架好了&quot;&gt;&lt;a href=&quot;#又一个新的Blog架好了&quot; class=&quot;headerlink&quot; title=&quot;又一个新的Blog架好了.&quot;&gt;&lt;/a&gt;又一个新的Blog架好了.&lt;/h2&gt;
+    
+    </summary>
+    
+      <category term="杂谈" scheme="https://crs.mainstars.net/burogu/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="Hexo" scheme="https://crs.mainstars.net/burogu/tags/Hexo/"/>
+    
+      <category term="Blog" scheme="https://crs.mainstars.net/burogu/tags/Blog/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

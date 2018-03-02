@@ -57,7 +57,7 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="Unknown Corner.">
     <meta name="keywords" content="null">
-    <meta name="theme-color" content="#0097A7">
+    <meta name="theme-color" content="#2196F3">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
     <meta http-equiv="Cache-Control" content="no-transform" />
@@ -80,7 +80,7 @@
     <!-- Import CSS -->
     
         <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/burogu/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
-        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/burogu/css/style.min.css?MKetZV3cUTfDxvMffaOezg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/burogu/css/style.min.css?HfmsjjWrJcART00rBpbxew==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
 
         
 
@@ -102,7 +102,7 @@
   }
 
   a {
-    color: #00838F;
+    color: #2196F3;
   }
 
   .mdl-card__media,
@@ -112,13 +112,13 @@
   #scheme-Paradox .sidebar_archives-count,
   #scheme-Paradox .sidebar-colored .sidebar-header,
   #scheme-Paradox .sidebar-colored .sidebar-badge{
-    background-color: #0097A7 !important;
+    background-color: #2196F3 !important;
   }
 
   /* Sidebar User Drop Down Menu Text Color */
   #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
   #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
-    color: #0097A7 !important;
+    color: #2196F3 !important;
   }
 
   #post_entry-right-info,
@@ -131,29 +131,29 @@
   .sidebar-colored .sidebar-nav > .open > a:hover,
   .sidebar-colored .sidebar-nav > .open > a:focus,
   #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
-    color: #0097A7 !important;
+    color: #2196F3 !important;
   }
 
   .toTop {
-    background: #757575 !important;
+    background: #fff !important;
   }
 
   .material-layout .material-post>.material-nav,
   .material-layout .material-index>.material-nav,
   .material-nav a {
-    color: #757575;
+    color: #fff;
   }
 
   #scheme-Paradox .MD-burger-layer {
-    background-color: #757575;
+    background-color: #fff;
   }
 
   #scheme-Paradox #post-toc-trigger-btn {
-    color: #757575;
+    color: #fff;
   }
 
   .post-toc a:hover {
-    color: #00838F;
+    color: #2196F3;
     text-decoration: underline;
   }
 
@@ -164,12 +164,7 @@
 
     <style>
       body{
-        background-color: #F5F5F5;
-      }
-
-      /* blog_info bottom background */
-      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
-        background-color: #fff;
+        background-image: url(https://api.dujin.org/bing/1920.php);
       }
     </style>
 
@@ -218,7 +213,7 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="CRS&#39; Burogu">
     <meta name="msapplication-starturl" content="https://crs.mainstars.net/burogu/burogu/2018/03/02/hello-world/">
-    <meta name="msapplication-navbutton-color" content="#0097A7">
+    <meta name="msapplication-navbutton-color" content="#2196F3">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="CRS&#39; Burogu">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -229,6 +224,10 @@
     
 
     <!-- RSS -->
+    
+        
+            <link rel=alternate type="application/atom+xml" href="atom.xml">
+        
     
 
     <!-- The Open Graph protocol -->
@@ -546,18 +545,19 @@
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.10.0/js/md5.min.js"></script>
 <script>
     var gitalk = new Gitalk({
-            clientID: '53ca1970d230ce74b88b',
-            clientSecret: 'f81135197cf05238f938d01c78acd457cd2ae6a6',
-            repo: 'wskacrs/burogu',
+            clientID: 'd81aa1e85afca790c7c5',
+            clientSecret: 'b12cabf867946ba56f174c85d9309a5648b98f41',
+            repo: 'burogu',
             owner: 'wskacrs',
             admin: ['wskacrs'],
             // facebook-like distraction free mode
-            distractionFreeMode: false
+            distractionFreeMode: false,
+			id: md5(location.href)
         })
-   gitalk.render('gitalk-container')
+    gitalk.render('gitalk-container')
 </script>
 </div>
 <style>
@@ -573,6 +573,14 @@
             <!-- Post Prev & Next Nav -->
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
+    
+        <a href="/burogu/2018/03/03/Re-Start/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
     
 
     <!-- Section Spacer -->
@@ -615,7 +623,7 @@
 
     <!-- Sidebar Email -->
     <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
-        mailto:wskacrs@mainstars.net
+        wskacrs@mainstars.net
         <b class="caret"></b>
     </a>
 </div>
@@ -628,11 +636,11 @@
         <ul id="settings-dropdown" class="dropdown-menu">
             
                 <li>
-                    <a href="mailto:wskacrs@mainstars.net" target="_blank" title="Email Me">
+                    <a href="mailto:wskacrs@mainstars.net" target="_blank" title="邮件联系">
                         
                             <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
                         
-                        Email Me
+                        邮件联系
                     </a>
                 </li>
             
@@ -675,14 +683,14 @@
         <li class="dropdown">
             <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
                 
-                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                    <i class="material-icons sidebar-material-icons">apps</i>
                 
                 分类
                 <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
                 <li>
-                
+                <a class="sidebar_archives-link" href="/burogu/categories/折腾/">折腾</a></li><li><a class="sidebar_archives-link" href="/burogu/categories/折腾/教程/">教程</a></li><li><a class="sidebar_archives-link" href="/burogu/categories/杂谈/">杂谈</a>
             </ul>
         </li>
         
@@ -691,11 +699,41 @@
     <!-- Pages  -->
     
         <li>
-            <a href="/about" title="关于">
+            <a href="https://crs.mainstars.net/burogu/tags" title="标签">
+                
+                    <i class="material-icons sidebar-material-icons">bookmark</i>
+                
+                标签
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="https://wska.mainstars.net" title="关于">
                 
                     <i class="material-icons sidebar-material-icons">person</i>
                 
                 关于
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="https://crs.mainstars.net/burogu/gallery" title="图库">
+                
+                    <i class="material-icons sidebar-material-icons">photo</i>
+                
+                图库
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="https://crs.mainstars.net/burogu/links" title="友链">
+                
+                    <i class="material-icons sidebar-material-icons">people</i>
+                
+                友链
             </a>
         </li>
         
@@ -865,14 +903,14 @@ It will not impact the appearance and can give developers a lot of support :)
     });
     NProgress.start();
     $('#nprogress .bar').css({
-        'background': '#29d'
+        'background': '#2196F3'
     });
     $('#nprogress .peg').css({
-        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+        'box-shadow': '0 0 10px #2196F3, 0 0 15px #2196F3'
     });
     $('#nprogress .spinner-icon').css({
-        'border-top-color': '#29d',
-        'border-left-color': '#29d'
+        'border-top-color': '#2196F3',
+        'border-left-color': '#2196F3'
     });
     setTimeout(function() {
         NProgress.done();
