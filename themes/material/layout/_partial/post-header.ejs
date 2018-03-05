@@ -3,15 +3,15 @@
     <% if(!page.thumbnail) { %>
         <% if(!theme.thumbnail.purecolor) {%>
             <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <div class="mdui-ripple mdui-ripple-white post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
             <%- partial('_partial/Paradox-post-thumbnail') %>
         <% } else { %>
             <!-- Pure Thumbnail -->
-            <div class="post_thumbnail-pure mdl-card__media mdl-color-text--grey-50" style="background-color:<%= theme.thumbnail.purecolor %> !important">
+            <div class="mdui-ripple mdui-ripple-white post_thumbnail-pure mdl-card__media mdl-color-text--grey-50" style="background-color:<%= theme.thumbnail.purecolor %> !important">
         <% } %>
     <% }else{ %>
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(<%- page.thumbnail %>)">
+        <div class="mdui-ripple mdui-ripple-white post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(<%- page.thumbnail %>)">
     <% } %>
             <p class="article-headline-p">
                 <%- page.title %>

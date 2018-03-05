@@ -3,14 +3,14 @@
     <% if(!post.thumbnail) { %>
         <% if(!theme.thumbnail.purecolor) { %>
             <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <div class="mdui-ripple mdui-ripple-white post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
         <% } else { %>
             <!-- Pure Thumbnail -->
-            <div class="post-thumbnail-pure mdl-card__media mdl-color-text--grey-50" style="background-color:<%= theme.thumbnail.purecolor %> !important">
+            <div class="mdui-ripple mdui-ripple-white post-thumbnail-pure mdl-card__media mdl-color-text--grey-50" style="background-color:<%= theme.thumbnail.purecolor %> !important">
         <% } %>
     <% } else { %>
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="<%= post.thumbnail %>">
+        <div class="mdui-ripple mdui-ripple-white post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="<%= post.thumbnail %>">
     <% } %>
 
         <!-- Post Title -->
@@ -18,7 +18,7 @@
     </div>
 
     <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+    <div class="mdui-typo mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         <%if(post.excerpt) {%>
             <%- strip_html(post.excerpt) %>
         <%}else{%>
@@ -41,7 +41,7 @@
                 <span><%= date(post.date, 'MMM DD, YYYY') %></span>
             </div>
         </div>
-        <div id="post_entry-right-info">
+        <div id="post_entry-right-info" class="mdui-typo">
           <% if (post.categories && post.categories.length) { %>
               <!-- Category -->
               <span class="post_entry-category">

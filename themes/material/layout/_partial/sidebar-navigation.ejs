@@ -1,6 +1,6 @@
 <ul class="nav sidebar-nav">
     <!-- User dropdown  -->
-    <li class="dropdown">
+    <li class="mdui-ripple mdui-ripple-black dropdown">
         <ul id="settings-dropdown" class="dropdown-menu">
             <% for (var i in theme.sidebar.dropdown) { %>
                 <li>
@@ -17,7 +17,7 @@
 
     <!-- Homepage -->
     <% if(theme.sidebar.homepage.use === true) { %>
-        <li id="sidebar-first-li">
+        <li id="sidebar-first-li" class="mdui-ripple mdui-ripple-black">
             <a href="<%= config.root %>">
                 <% if(theme.sidebar.homepage.icon) { %>
                     <i class="material-icons sidebar-material-icons"><%= theme.sidebar.homepage.icon %></i>
@@ -32,7 +32,7 @@
 
     <!-- Archives  -->
     <% if(theme.sidebar.archives.use === true) { %>
-        <li class="dropdown">
+        <li class="mdui-ripple mdui-ripple-black dropdown">
             <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
                 <% if(theme.sidebar.archives.icon) { %>
                     <i class="material-icons sidebar-material-icons"><%= theme.sidebar.archives.icon %></i>
@@ -40,7 +40,7 @@
                     <%= __('sidebar.archive') %>
                 <b class="caret"></b>
             </a>
-            <ul class="dropdown-menu">
+            <ul class="mdui-ripple mdui-ripple-black dropdown-menu">
             <li>
                 <%- list_archives({
                     show_count: false,
@@ -58,7 +58,7 @@
 
     <!-- Categories  -->
     <% if(theme.sidebar.categories.use === true) { %>
-        <li class="dropdown">
+        <li class="mdui-ripple mdui-ripple-black dropdown">
             <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
                 <% if(theme.sidebar.categories.icon) { %>
                     <i class="material-icons sidebar-material-icons"><%= theme.sidebar.categories.icon %></i>
@@ -66,7 +66,7 @@
                 <%= __('title.category') %>
                 <b class="caret"></b>
             </a>
-            <ul class="dropdown-menu">
+            <ul class="mdui-ripple mdui-ripple-black dropdown-menu">
                 <li>
                 <%- list_categories({
                     show_count: false,
@@ -84,7 +84,7 @@
 
     <!-- Pages  -->
     <% for (var i in theme.sidebar.pages){ %>
-        <li>
+        <li class="mdui-ripple mdui-ripple-black">
             <a href="<%= theme.sidebar.pages[i].link %>" title="<%= i %>">
                 <% if(theme.sidebar.pages[i].icon){ %>
                     <i class="material-icons sidebar-material-icons"><%= theme.sidebar.pages[i].icon %></i>
@@ -99,7 +99,7 @@
 
     <!-- Article Number  -->
     <% if(theme.sidebar.article_num.use === true) { %>
-        <li>
+        <li class="mdui-ripple mdui-ripple-black">
             <a href="/archives">
                 <%= __('sidebar.article_num') %>
                 <span class="sidebar-badge"><%= site.posts.length %></span>

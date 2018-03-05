@@ -1,7 +1,7 @@
 ---
 title: 'Re: Start'
 date: 2018-03-03 00:30:00
-updated: 2018-03-03 00:30:00
+updated: 2018-03-06 02:00:00
 categories:
 - 杂谈
 tags:
@@ -36,12 +36,10 @@ CRS' Space(C.R.S'S)这个名称感觉还是不太适合博客用.
 界面勉强算美观和支持中文是我用gitalk的原因, gitment只有英文直接不考虑.
 只会用Google翻译的英语渣想搞个东西是真的难...
 在config里配置了一下, 迷之Error: Not Found  Error: Validation Failed二连把我难住了.
+(后记: 经过一番折腾把这个问题解决了. 关于解决方法, 参照[priesttomb.github.io](https://priesttomb.github.io/%E6%97%A5%E5%B8%B8/2018/02/12/%E5%A4%84%E7%90%86Gitalk%E4%B8%AD%E7%94%B1%E4%BA%8E%E6%96%87%E7%AB%A0URL%E8%BF%87%E9%95%BF%E5%AF%BC%E8%87%B4%E7%9A%84Validation-Failed(422)/)
 怀念Typecho的原生评论.
 
 ## 文件托管 / 主题更新
 用几天的时间了解了一下Hexo, 我选择了稳定性最高的方案——源文件和生成文件全部放在Github.
 如你所见([https://github.com/wskacrs/burogu](https://github.com/wskacrs/burogu)), master分支存放源文件, gh-pages分支存放生成文件.
-如果我格盘重装系统(最近很有可能发生)或者换了电脑, 只需要从Github把源文件下载会来重新部署就可以.
-
-因为Hexo-Material主题还是满足不了我瞎折腾的心, 这次我也会修改成Materialw.
-修改项多了以后会单独发个帖子作为主题引导页, 这次所有文件都放在Github所以需要的话还请自行提取.
+如果我清数据重装系统(很有可能发生)或者换了电脑, 只需要从Github把源文件下载会来重新部署就可以.

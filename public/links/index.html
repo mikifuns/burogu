@@ -78,9 +78,14 @@
     <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
 
     <!-- Import CSS -->
+	
+	<!-- Materialw Custom CSS Start -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/mdui/0.4.0/css/mdui.min.css">
+	<!-- Materialw Custom CSS End -->
+	
     
         <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/burogu/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
-        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/burogu/css/style.min.css?HfmsjjWrJcART00rBpbxew==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/burogu/css/style.min.css?GY/Ag8EGgiog/z20gpZ40g==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
 
         
 
@@ -93,7 +98,7 @@
 <!-- Other Styles -->
 <style>
   body, html {
-    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
     overflow-x: hidden !important;
   }
   
@@ -268,7 +273,8 @@
 
 
     
-        <body id="scheme-Paradox" class="lazy">
+	    <!-- MDUI Color Setting -->
+        <body id="scheme-Paradox" class="mdui-theme-primary-blue mdui-theme-accent-blue lazy">
             <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
                 
 
@@ -430,13 +436,8 @@
         </span>
     </button>
 
-    <!-- Sidebar Avatar -->
-    <div class="sidebar-image">
-        <img src="https://q.qlogo.cn/headimg_dl?dst_uin=1137999640&amp;spec=640&amp;img_type=jpg" alt="WSKa's avatar">
-    </div>
-
     <!-- Sidebar Email -->
-    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+    <a data-toggle="dropdown" class="mdui-ripple mdui-ripple-black sidebar-brand" href="#settings-dropdown">
         wskacrs@mainstars.net
         <b class="caret"></b>
     </a>
@@ -446,7 +447,7 @@
         <!-- Sidebar Navigation  -->
         <ul class="nav sidebar-nav">
     <!-- User dropdown  -->
-    <li class="dropdown">
+    <li class="mdui-ripple mdui-ripple-black dropdown">
         <ul id="settings-dropdown" class="dropdown-menu">
             
                 <li>
@@ -463,7 +464,7 @@
 
     <!-- Homepage -->
     
-        <li id="sidebar-first-li">
+        <li id="sidebar-first-li" class="mdui-ripple mdui-ripple-black">
             <a href="/burogu/">
                 
                     <i class="material-icons sidebar-material-icons">home</i>
@@ -476,7 +477,7 @@
 
     <!-- Archives  -->
     
-        <li class="dropdown">
+        <li class="mdui-ripple mdui-ripple-black dropdown">
             <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
                 
                     <i class="material-icons sidebar-material-icons">inbox</i>
@@ -484,7 +485,7 @@
                     归档
                 <b class="caret"></b>
             </a>
-            <ul class="dropdown-menu">
+            <ul class="mdui-ripple mdui-ripple-black dropdown-menu">
             <li>
                 <a class="sidebar_archives-link" href="/burogu/archives/2018/03/">三月 2018</a>
             </ul>
@@ -494,7 +495,7 @@
 
     <!-- Categories  -->
     
-        <li class="dropdown">
+        <li class="mdui-ripple mdui-ripple-black dropdown">
             <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
                 
                     <i class="material-icons sidebar-material-icons">apps</i>
@@ -502,7 +503,7 @@
                 分类
                 <b class="caret"></b>
             </a>
-            <ul class="dropdown-menu">
+            <ul class="mdui-ripple mdui-ripple-black dropdown-menu">
                 <li>
                 <a class="sidebar_archives-link" href="/burogu/categories/折腾/">折腾</a></li><li><a class="sidebar_archives-link" href="/burogu/categories/折腾/教程/">教程</a></li><li><a class="sidebar_archives-link" href="/burogu/categories/杂谈/">杂谈</a>
             </ul>
@@ -512,7 +513,7 @@
 
     <!-- Pages  -->
     
-        <li>
+        <li class="mdui-ripple mdui-ripple-black">
             <a href="https://crs.mainstars.net/burogu/tags" title="标签">
                 
                     <i class="material-icons sidebar-material-icons">bookmark</i>
@@ -522,7 +523,7 @@
         </li>
         
     
-        <li>
+        <li class="mdui-ripple mdui-ripple-black">
             <a href="https://wska.mainstars.net" title="关于">
                 
                     <i class="material-icons sidebar-material-icons">person</i>
@@ -532,7 +533,7 @@
         </li>
         
     
-        <li>
+        <li class="mdui-ripple mdui-ripple-black">
             <a href="https://crs.mainstars.net/burogu/gallery" title="图库">
                 
                     <i class="material-icons sidebar-material-icons">photo</i>
@@ -542,7 +543,7 @@
         </li>
         
     
-        <li>
+        <li class="mdui-ripple mdui-ripple-black">
             <a href="https://crs.mainstars.net/burogu/links" title="友链">
                 
                     <i class="material-icons sidebar-material-icons">people</i>
@@ -666,7 +667,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
         <!--Copyright-->
         <div id="copyright">
-            Copyright&nbsp;©<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>CRS' Burogu
+            Copyright&nbsp;©&nbsp;2018&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>CRS' Burogu
             
         </div>
 
@@ -680,7 +681,7 @@ It will not impact the appearance and can give developers a lot of support :)
         它不会影响美观并可以给开发者很大的支持。 :)
         -->
 
-        <div class="mdl-mini-footer--right-section">
+        <div class="mdui-typo mdl-mini-footer--right-section">
             <div>
                 <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
                 <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
@@ -795,6 +796,10 @@ It will not impact the appearance and can give developers a lot of support :)
 <!-- Custom Footer -->
 
 
+
+<!-- Materialw Custom JS Start -->
+<script type="text/javascript" src="https://cdn.bootcss.com/mdui/0.4.0/js/mdui.min.js"></script>
+<!-- Materialw Custom JS End -->
 
 <script>
     (function(){

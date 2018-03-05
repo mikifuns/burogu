@@ -19,24 +19,9 @@
         </div>
         <div class="section-spacer"></div>
 
-        <!-- Pages -->
-        <button id="show-pages-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-            <i class="material-icons" role="presentation">more_vert</i>
-            <span class="visuallyhidden">Pages</span>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="show-pages-button">
-            <% for (var i in theme.sidebar.pages) { %>
-                <a class="index_share-link" href="<%= theme.sidebar.pages[i].link || '#' %>" title="<%= i %>">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        <%= i %>
-                    </li>
-                </a>
-            <% } %>
-        </ul>
-
         <!-- Menu -->
         <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-            <i class="material-icons" role="presentation">share</i>
+            <i class="material-icons" role="presentation">more_vert</i>
             <span class="visuallyhidden">show menu</span>
         </button>
         <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menubtn">
