@@ -44,6 +44,11 @@
                 </a>
             <% } %>
 
+			    <a class="index_share-link" href="/burogu/sitemap.xml">
+				    <li class="mdl-menu__item mdl-js-ripple-effect">
+					    站点地图
+				    </li>
+				</a>
             <% if(theme.sns_share.weibo === true) { %>
                 <a class="index_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=<%= config.title %>&url=<%- config.url %>&pic=<%- config.url + theme.head.favicon %>&searchPic=false&style=simple" target="_blank">
                     <li class="mdl-menu__item mdl-js-ripple-effect">

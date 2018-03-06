@@ -1,5 +1,4 @@
 ---
-title: gallery
-date:
+title: 图库
 layout: gallery
 ---
