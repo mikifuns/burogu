@@ -1,44 +1,19 @@
-<html>
-<head>
-<!-- hexo-inject:begin --><!-- hexo-inject:end -->
-<title>404 Not Found</title>
-<style>
-*{margin:0;padding:0;outline:none;font-family:\5FAE\8F6F\96C5\9ED1,ËÎÌå;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-khtml-user-select:none;user-select:none;cursor:default;font-weight:lighter;}
-.center{margin:0 auto;}
-.whole{width:100%;height:100%;line-height:100%;position:fixed;bottom:0;left:0;z-index:-1000;overflow:hidden;}
-.whole img{width:100%;height:100%;}
-.mask{width:100%;height:100%;position:absolute;top:0;left:0;background:#000;opacity:0.6;filter:alpha(opacity=60);}
-.b{width:100%;text-align:center;height:400px;position:absolute;top:50%;margin-top:-230px}.a{width:150px;height:50px;margin-top:30px}.a a{display:block;float:left;width:150px;height:50px;background:#fff;text-align:center;line-height:50px;font-size:18px;border-radius:25px;color:#333}.a a:hover{color:#000;box-shadow:#fff 0 0 20px}
-p{color:#fff;margin-top:40px;font-size:24px;}
-#num{margin:0 5px;font-weight:bold;}
-</style>
+<meta name="viewport" content="width=device-width">
+<div class="mdui-container">
+<h1>404 Not Found</h1>
+<p>æ²¡æœ‰æ‰¾åˆ°ä½ è¦è®¿é—®çš„é¡µé¢, æˆ–è®¸æ–‡ä»¶åç§°å·²ç»æ”¹å˜.</p>
+<p>å°è¯•<a onclick="show_confirm()">è¿”å›ä¸»é¡µ</a>æœç´¢çœ‹çœ‹?</p></br></br>
 <script type="text/javascript">
-	var num=5;
-	function redirect(){
-		num--;
-		document.getElementById("num").innerHTML=num;
-		if(num<0){
-			document.getElementById("num").innerHTML=0;
-			location.href="https://crs.mainstars.net/burogu";
-			}
-		}
-	setInterval("redirect()", 1000);
-</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-</head>
-
-<body onload="redirect();">
-<!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="whole">
-	<img src="https://api.dujin.org/bing/1920.php">
-    <div class="mask"></div>
-</div>
-<div class="b">
-		<img src="http://7xowaa.com1.z0.glb.clouddn.com/404.png" class="center">
-		<p>
-			ÔİÊ±Î´ÄÜÕÒµ½Äú²éÕÒµÄÒ³Ãæ<br>
-			¿ÉÄÜÊäÈëµÄÍøÖ·´íÎó»ò´ËÒ³Ãæ²»´æÔÚ<br>
-            <span id="num"></span>Ãëºó×Ô¶¯Ìø×ªµ½Ö÷Ò³
-		</p>
-	</div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-
-</body>
-</html>
+function show_confirm()
+{
+var r=confirm("ä½ ä»¥ä¸ºä½ åªéœ€è¦ç‚¹ä¸€ä¸‹å°±å¯ä»¥è¿”å›ä¸»é¡µ?" + '\n' + "é‚£ä½ å°±å¤§é”™ç‰¹é”™äº†, å®é™…ä¸Šä½ éœ€è¦ç‚¹ä¸¤ä¸‹.");
+if (r==true)
+  {
+  window.location.href='https://crs.mainstars.net/burogu';
+  }
+else
+  {
+  alert("çœŸçš„æƒ³åœ¨è¿™ä¸ªæ— èŠçš„404é¡µé¢å‘†ä¸‹å»å—?");
+  }
+}
+</script>
