@@ -40,6 +40,8 @@ tags:
 ## 更新记录
 >日期精确到天, 同一天内的改动按完成时间先后排序.
 
+### 更早
+- 给Gitalk生成的issue套上MD5
 ### 2018年3月6日
 - 调用MDUI 0.4.0 (BootCDN)
 - 修改Gitalk评论背景颜色
@@ -52,3 +54,5 @@ tags:
 - 修改sidebar图片为[blog.nfz.moe](https://blog.nfz.moe)之前的图片, 以后再作更改
 - 修改默认头像为阿卡林 (无用更新#1)
 - Copyright增加导向Repo的超链接
+### 2018年3月7日
+- 引入[Pangu.js](https://github.com/vinta/pangu.js)

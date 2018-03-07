@@ -201,5 +201,16 @@
             <%- site.data.head[i] %>
         <% } %>
     <% } %>
+    
+	<!-- Pangu.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pangu/3.3.0/pangu.min.js"></script>
+    <script>
+      var newText = pangu.spacing("WSKaCrs：「Let's Party!各位高明博雅君子！」");
+      // output: "WSKaCrs：「Let's Party! 各位高明博雅君子！」"
 
+      pangu.spacingPage();
+      pangu.spacingElementById('main');
+      pangu.spacingElementByClassName('comment');
+      pangu.spacingElementByTagName('p');
+    </script>
 </head>

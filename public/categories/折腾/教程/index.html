@@ -168,8 +168,13 @@
 <!-- Theme Background Related-->
 
     <style>
-      body{
-        background-image: url(https://api.dujin.org/bing/1920.php);
+      body {
+        background-color: undefined;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text {
+        background-color: #fff;
       }
     </style>
 
@@ -268,7 +273,18 @@
 
     <!-- Custom Head -->
     
+    
+	<!-- Pangu.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pangu/3.3.0/pangu.min.js"></script>
+    <script>
+      var newText = pangu.spacing("WSKaCrs：「Let's Party!各位高明博雅君子！」");
+      // output: "WSKaCrs：「Let's Party! 各位高明博雅君子！」"
 
+      pangu.spacingPage();
+      pangu.spacingElementById('main');
+      pangu.spacingElementByClassName('comment');
+      pangu.spacingElementByTagName('p');
+    </script>
 </head>
 
 
@@ -731,6 +747,17 @@ It will not impact the appearance and can give developers a lot of support :)
    <!-- GitTalk -->
 
 
+<!-- Pangu.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pangu/3.3.0/pangu.min.js"></script>
+<script>
+  var newText = pangu.spacing("WSKaCrs：「Let's Party!各位高明博雅君子！」");
+  // output: "WSKaCrs：「Let's Party! 各位高明博雅君子！」"
+
+  pangu.spacingPage();
+  pangu.spacingElementById('main');
+  pangu.spacingElementByClassName('comment');
+  pangu.spacingElementByTagName('p');
+</script>
 
 
 
@@ -763,6 +790,12 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 <!-- Bing Background -->
+
+<script type="text/ls-javascript" id="Bing-Background-script">
+    queue.offer(function(){
+        $('body').attr('data-original', 'https://api.i-meto.com/bing?new');
+    });
+</script>
 
 
 <script type="text/ls-javascript" id="lazy-load">
