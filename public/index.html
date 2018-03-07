@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html style="display: none;" lang="zh">
-    <head>
+    <head><link rel=manifest href=/manifest.json>
     <meta charset="utf-8">
     <!--
         © Material Theme
@@ -373,7 +373,7 @@
         </label>
 
         <form autocomplete="off" id="search-form" class="mdl-textfield__expandable-holder">
-            <input type="text" id="search" class="form-control mdl-textfield__input search-input" name="q" results="0" placeholder=""/>
+            <input type="text" id="search" class="mdui-text-color-white-text form-control mdl-textfield__input search-input" name="q" results="0" placeholder=""/>
             <label id="search-form-label" class="mdl-textfield__label" for="search"></label>
         </form>
     </div>
@@ -382,11 +382,22 @@
 
 
     <!-- LOGO -->
-    <div class="something-else-logo mdl-color--white mdl-color-text--grey-600">
+    <!-- Old LOGO
+	<div class="something-else-logo mdl-color--white mdl-color-text--grey-600">
         <a href="#" target="_blank">
             <img src="/burogu/img/logo.png" alt="logo" />
         </a>
-    </div>
+    </div> -->
+	
+	<div class="something-else-logo mdl-color--white mdl-color-text--grey-600">
+        <a href="https://www.pixiv.net/member.php?id=137115" target="_blank">
+		<script>
+var str=new Array("https://i.loli.net/2018/03/08/5aa0716b7d716.gif","https://i.loli.net/2018/03/08/5aa0716b912b0.gif","https://i.loli.net/2018/03/08/5aa0716b9d52d.gif","https://i.loli.net/2018/03/08/5aa0716bab779.gif");
+var a;//
+a=str[parseInt(Math.random()*(str.length))];
+document.write("<img alt=logo class=mdui-img-circle src="+a+">");
+</script></a>
+	</div>
 
     <!-- Infomation -->
     <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
@@ -716,7 +727,7 @@
 
     var locatePost = $('.locate-thumbnail-symbol').next();
     for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
+        randomNum = Math.floor(Math.random() * 24 + 1);
 
         locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
         locatePost.children('.post_thumbnail-random').attr('data-original', '/burogu/img/random/material-' + randomNum + '.png');
@@ -1206,6 +1217,11 @@ console.log('\n %c © Material Theme | Version: 1.5.2 | https://github.com/viose
 
                 </main>
             </div>
-        </body>
+        <script>if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js?t=1520466312072')
+    .then(function () {console.log('ServiceWorker Register Successfully.')})
+    .catch(function (e) {console.error(e)});
+}
+</script></body>
     
 </html>

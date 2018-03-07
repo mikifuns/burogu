@@ -5,11 +5,22 @@
     <%- partial('_partial/Paradox-search') %>
 
     <!-- LOGO -->
-    <div class="something-else-logo mdl-color--white mdl-color-text--grey-600">
+    <!-- Old LOGO
+	<div class="something-else-logo mdl-color--white mdl-color-text--grey-600">
         <a href="<%= theme.url.logo || '#' %>" target="_blank">
             <img src="<%= url_for(theme.img.logo) %>" alt="logo" />
         </a>
-    </div>
+    </div> -->
+	
+	<div class="something-else-logo mdl-color--white mdl-color-text--grey-600">
+        <a href="https://www.pixiv.net/member.php?id=137115" target="_blank">
+		<script>
+var str=new Array("https://i.loli.net/2018/03/08/5aa0716b7d716.gif","https://i.loli.net/2018/03/08/5aa0716b912b0.gif","https://i.loli.net/2018/03/08/5aa0716b9d52d.gif","https://i.loli.net/2018/03/08/5aa0716bab779.gif");
+var a;//
+a=str[parseInt(Math.random()*(str.length))];
+document.write("<img alt=logo class=mdui-img-circle src="+a+">");
+</script></a>
+	</div>
 
     <!-- Infomation -->
     <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
