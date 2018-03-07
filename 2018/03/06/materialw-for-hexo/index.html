@@ -56,7 +56,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="不得不说, markdown没有可视化编辑器对我码字积极性影响真的很大.">
-    <meta name="keywords" content="null,Materialw,Hexo">
+    <meta name="keywords" content="null,Hexo,Materialw">
     <meta name="theme-color" content="#2196F3">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -85,7 +85,7 @@
 	
     
         <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/burogu/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
-        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/burogu/css/style.min.css?GY/Ag8EGgiog/z20gpZ40g==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/burogu/css/style.min.css?bLtEXO9bf2HdsxxtVte0HA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
 
         
 
@@ -246,7 +246,7 @@
     <meta property="og:title" content="Materialw for Hexo | CRS&#39; Burogu">
     <meta property="og:image" content="/burogu/img/favicon.png">
     <meta property="og:description" content="不得不说, markdown没有可视化编辑器对我码字积极性影响真的很大.">
-    <meta property="og:article:tag" content="Materialw"> <meta property="og:article:tag" content="Hexo"> 
+    <meta property="og:article:tag" content="Hexo"> <meta property="og:article:tag" content="Materialw"> 
 
     
         <meta property="article:published_time" content="Tue Mar 06 2018 01:00:00 GMT+0800">
@@ -291,7 +291,7 @@
             "url": "/img/favicon.png"
         }
     },
-    "keywords": ",Materialw,Hexonull",
+    "keywords": ",Hexo,Materialwnull",
     "description": "不得不说, markdown没有可视化编辑器对我码字积极性影响真的很大.",
 }
 </script>
@@ -543,11 +543,10 @@
 </blockquote>
 <h2 id="相关"><a href="#相关" class="headerlink" title="相关"></a>相关</h2><p>修改: <a href="mailto:wskacrs@mainstars.net" target="_blank" rel="noopener">WSKaCrs</a><br>底层: <a href="https://github.com/viosey/hexo-theme-material" target="_blank" rel="noopener">hexo-theme-material</a> - Viosey<br>灵感: <a href="https://github.com/KeJunMao/jekyll-theme-mdui" target="_blank" rel="noopener">jekyll-theme-mdui</a> - KeJunMao<br>灵感2: <a href="https://github.com/yrccondor/mdx" target="_blank" rel="noopener">mdx</a> - AxtonYao<br>部分素材: <a href="https://github.com/manyang901/material" target="_blank" rel="noopener">new-material</a> - Manyang901</p>
 <h2 id="待办"><a href="#待办" class="headerlink" title="待办"></a>待办</h2><ul>
-<li><a href="https://flyhigher.top/develop/788.html" target="_blank" rel="noopener">MDx主题</a>的toTop按钮(那个按钮可以说是我见过最好的了)</li>
+<li><a href="https://flyhigher.top/develop/788.html" target="_blank" rel="noopener">MDx主题</a>的toTop按钮(对我来说太难, 先放置几个月再说)</li>
 <li><a href="https://github.com/KeJunMao/jekyll-theme-mdui" target="_blank" rel="noopener">jekyll-theme-mdui</a>部分样式</li>
-<li>试着模仿MDx主题的文章预览图作为背景</li>
+<li>新的, 更多功能的toTop按钮</li>
 <li>修改favicon和LOGO</li>
-<li>增加random图片数量</li>
 <li>Moe Pic</li>
 </ul>
 <h2 id="更新记录"><a href="#更新记录" class="headerlink" title="更新记录"></a>更新记录</h2><blockquote>
@@ -566,7 +565,8 @@
 <li>修改sidebar图片为<a href="https://blog.nfz.moe" target="_blank" rel="noopener">blog.nfz.moe</a>之前的图片, 以后再作更改</li>
 <li>修改默认头像为阿卡林 (无用更新#1)</li>
 <li>Copyright增加导向Repo的超链接<h3 id="2018年3月7日"><a href="#2018年3月7日" class="headerlink" title="2018年3月7日"></a>2018年3月7日</h3></li>
-<li>引入<a href="https://github.com/vinta/pangu.js" target="_blank" rel="noopener">Pangu.js</a></li>
+<li>引入<a href="https://github.com/vinta/pangu.js" target="_blank" rel="noopener">Pangu.js</a> (cdnjs)</li>
+<li>新的多功能FAB (功能以后再加)</li>
 </ul>
 
         
@@ -847,12 +847,30 @@ It will not impact the appearance and can give developers a lot of support :)
 
                     
                         <!-- Footer Top Button -->
-                        <div id="back-to-top" class="toTop-wrap">
+                        <!-- 旧 FAB
+<div id="back-to-top" class="toTop-wrap">
     <a href="#top" class="toTop">
         <i class="material-icons footer_top-i">expand_less</i>
     </a>
-</div>
+</div> -->
 
+<!-- Materialw FAB -->
+<div class="mdui-fab-wrapper" id="back-to-top" mdui-fab>
+  <button class="mdui-fab mdui-ripple mdui-color-theme-accent">
+  <a href="#top" class="toTop">
+
+    <i class="mdui-icon material-icons">add</i>
+    
+    <i class="mdui-icon mdui-fab-opened material-icons">expand_less</i>
+  </a>
+  </button>
+  <div class="mdui-fab-dial">
+    <button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-pink"><i class="mdui-text-color-white-icon mdui-icon material-icons">get_app</i></button>
+    <button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-red"><i class="mdui-text-color-white-icon mdui-icon material-icons">music_note</i></button>
+    <button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-orange" onclick="window.open('https://steamcommunity.com/tradeoffer/new/?partner=258780405&token=RmWRViiB')"><i class="mdui-text-color-white-icon mdui-icon material-icons">redeem</i></a></button>
+    <button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-blue"><i class="mdui-text-color-white-icon mdui-icon material-icons">star</i></button>
+  </div>
+</div>
                     
 
                     <!--Footer-->
