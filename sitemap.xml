@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://crs.mainstars.net/burogu/404.html</loc>
+    
+    <lastmod>2018-03-06T18:15:14.501Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://crs.mainstars.net/burogu/messages/index.html</loc>
     
     <lastmod>2018-03-06T17:01:35.500Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://crs.mainstars.net/burogu/links/index.html</loc>
     
     <lastmod>2018-03-06T17:00:29.254Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://crs.mainstars.net/burogu/404.html</loc>
-    
-    <lastmod>2018-03-06T01:48:30.851Z</lastmod>
     
   </url>
   
