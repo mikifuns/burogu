@@ -30,11 +30,10 @@ tags:
 部分素材: [new-material](https://github.com/manyang901/material) - Manyang901
 
 ## 待办
-- [MDx主题](https://flyhigher.top/develop/788.html)的toTop按钮(那个按钮可以说是我见过最好的了)
+- [MDx主题](https://flyhigher.top/develop/788.html)的toTop按钮(对我来说太难, 先放置几个月再说)
 - [jekyll-theme-mdui](https://github.com/KeJunMao/jekyll-theme-mdui)部分样式
-- 试着模仿MDx主题的文章预览图作为背景
+- 新的, 更多功能的toTop按钮
 - 修改favicon和LOGO
-- 增加random图片数量
 - Moe Pic
 
 ## 更新记录
@@ -55,4 +54,5 @@ tags:
 - 修改默认头像为阿卡林 (无用更新#1)
 - Copyright增加导向Repo的超链接
 ### 2018年3月7日
-- 引入[Pangu.js](https://github.com/vinta/pangu.js)
+- 引入[Pangu.js](https://github.com/vinta/pangu.js) (cdnjs)
+- 新的多功能FAB (功能以后再加)
