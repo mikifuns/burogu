@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html style="display: none;" lang="zh">
-    <head>
+    <head><link rel=manifest href=/manifest.json>
     <meta charset="utf-8">
     <!--
         © Material Theme
@@ -369,7 +369,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#前言"><span class="post-toc-number">1.</span> <span class="post-toc-text">前言</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#相关"><span class="post-toc-number">2.</span> <span class="post-toc-text">相关</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#待办"><span class="post-toc-number">3.</span> <span class="post-toc-text">待办</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#更新记录"><span class="post-toc-number">4.</span> <span class="post-toc-text">更新记录</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#更早"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">更早</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2018年3月6日"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">2018年3月6日</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2018年3月7日"><span class="post-toc-number">4.3.</span> <span class="post-toc-text">2018年3月7日</span></a></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#前言"><span class="post-toc-number">1.</span> <span class="post-toc-text">前言</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#相关"><span class="post-toc-number">2.</span> <span class="post-toc-text">相关</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#待办"><span class="post-toc-number">3.</span> <span class="post-toc-text">待办</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#更新记录"><span class="post-toc-number">4.</span> <span class="post-toc-text">更新记录</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#更早"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">更早</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2018年3月6日"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">2018年3月6日</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2018年3月7日"><span class="post-toc-number">4.3.</span> <span class="post-toc-text">2018年3月7日</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2018年3月8日"><span class="post-toc-number">4.4.</span> <span class="post-toc-text">2018年3月8日</span></a></li></ol></li></ol>
     </ul>
     
 
@@ -392,7 +392,7 @@
             <!-- Random Thumbnail -->
             <div class="mdui-ripple mdui-ripple-white post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
             <script type="text/ls-javascript" id="post-thumbnail-script">
-    var randomNum = Math.floor(Math.random() * 19 + 1);
+    var randomNum = Math.floor(Math.random() * 24 + 1);
 
     $('.post_thumbnail-random').attr('data-original', '/burogu/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
@@ -545,9 +545,10 @@
 <h2 id="待办"><a href="#待办" class="headerlink" title="待办"></a>待办</h2><ul>
 <li><a href="https://flyhigher.top/develop/788.html" target="_blank" rel="noopener">MDx主题</a>的toTop按钮(对我来说太难, 先放置几个月再说)</li>
 <li><a href="https://github.com/KeJunMao/jekyll-theme-mdui" target="_blank" rel="noopener">jekyll-theme-mdui</a>部分样式</li>
-<li>新的, 更多功能的toTop按钮</li>
+<li>全站手动开关背景音乐 (画饼中, 想用SoundCloud)</li>
+<li>PJAX (麻烦, 放置)</li>
 <li>修改favicon和LOGO</li>
-<li>Moe Pic</li>
+<li>★Special Bonus★</li>
 </ul>
 <h2 id="更新记录"><a href="#更新记录" class="headerlink" title="更新记录"></a>更新记录</h2><blockquote>
 <p>日期精确到天, 同一天内的改动按完成时间先后排序.</p>
@@ -563,10 +564,15 @@
 <li>修改footer-develop-a样式颜色</li>
 <li>footer增加(浅到只有纯白背景效果才明显的)阴影加深效果</li>
 <li>修改sidebar图片为<a href="https://blog.nfz.moe" target="_blank" rel="noopener">blog.nfz.moe</a>之前的图片, 以后再作更改</li>
-<li>修改默认头像为阿卡林 (无用更新#1)</li>
+<li>修改默认头像为阿卡林 (无用更新 #1)</li>
 <li>Copyright增加导向Repo的超链接<h3 id="2018年3月7日"><a href="#2018年3月7日" class="headerlink" title="2018年3月7日"></a>2018年3月7日</h3></li>
-<li>引入<a href="https://github.com/vinta/pangu.js" target="_blank" rel="noopener">Pangu.js</a> (cdnjs)</li>
-<li>新的多功能FAB (功能以后再加)</li>
+<li>引入[Pangu.js]娴熟的添加空格(<a href="https://github.com/vinta/pangu.js" target="_blank" rel="noopener">https://github.com/vinta/pangu.js</a>) (cdnjs)</li>
+<li>新的多功能FAB (功能以后再加)<h3 id="2018年3月8日"><a href="#2018年3月8日" class="headerlink" title="2018年3月8日"></a>2018年3月8日</h3></li>
+<li>从<a href="https://github.com/manyang901/material" target="_blank" rel="noopener">new-material</a>入手五张新的随机图片</li>
+<li>部分PWA特性支持 (充数 #1)</li>
+<li>所有本地图片经过TinyPNG压缩 (话说也没减多少体积 大概已经被压缩过了)</li>
+<li>主页LOGO替换为<a href="https://www.pixiv.net/member.php?id=137115" target="_blank" rel="noopener">ミク くるくる着替え 作者:bororu</a>系列的随机图片</li>
+<li>搜索框 (真的能叫框吗?) 字体颜色改为白色</li>
 </ul>
 
         
@@ -1099,6 +1105,11 @@ console.log('\n %c © Material Theme | Version: 1.5.2 | https://github.com/viose
 
                 </main>
             </div>
-        </body>
+        <script>if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js?t=1520466312072')
+    .then(function () {console.log('ServiceWorker Register Successfully.')})
+    .catch(function (e) {console.error(e)});
+}
+</script></body>
     
 </html>
