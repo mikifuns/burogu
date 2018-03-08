@@ -74,7 +74,7 @@ pwa:
       name: CRS' Burogu
       short_name: CRS' Burogu
       icons:
-        - src: /source/img/logo.png
+        - src: /img/logo.png
           sizes: 600x600
           type: image/png
   serviceWorker:
@@ -92,7 +92,7 @@ pwa:
         strategy: cacheFirst
       - pattern: !!js/regexp /\//
         strategy: networkFirst
-  priority: 10
+  priority: 5
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
