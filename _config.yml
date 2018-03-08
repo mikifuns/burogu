@@ -66,34 +66,6 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: material
 
-# PWA
-pwa:
-  manifest:
-    path: /manifest.json
-    body:
-      name: CRS' Burogu
-      short_name: CRS' Burogu
-      icons:
-        - src: /img/logo.png
-          sizes: 600x600
-          type: image/png
-  serviceWorker:
-    path: /sw.js
-    preload:
-      urls:
-        - /
-      posts: 5
-    opts:
-      networkTimeoutSeconds: 5
-    routes:
-      - pattern: !!js/regexp /hm.baidu.com/
-        strategy: networkOnly
-      - pattern: !!js/regexp /.*\.(jpg|jpeg|png|gif)$/
-        strategy: cacheFirst
-      - pattern: !!js/regexp /\//
-        strategy: networkFirst
-  priority: 5
-
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:

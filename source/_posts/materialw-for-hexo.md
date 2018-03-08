@@ -59,7 +59,6 @@ tags:
 - 新的多功能FAB (功能以后再加)
 ### 2018年3月8日
 - 从[new-material](https://github.com/manyang901/material)入手五张新的随机图片
-- 部分PWA特性支持 (充数 #1)
 - 所有本地图片经过TinyPNG压缩 (话说也没减多少体积 大概已经被压缩过了)
 - 主页LOGO替换为[ミク くるくる着替え 作者:bororu](https://www.pixiv.net/member.php?id=137115)系列的随机图片
 - 搜索框 (真的能叫框吗?) 字体颜色改为白色
