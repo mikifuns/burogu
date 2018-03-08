@@ -32,7 +32,7 @@ tags:
 ## 待办
 - [MDx主题](https://flyhigher.top/develop/788.html)的toTop按钮(对我来说太难, 先放置几个月再说)
 - [jekyll-theme-mdui](https://github.com/KeJunMao/jekyll-theme-mdui)部分样式
-- 全站手动开关背景音乐 (画饼中, 想用SoundCloud)
+- 主页手动开关背景音乐 (画饼中, 想用SoundCloud)
 - PJAX (麻烦, 放置)
 - 修改favicon和LOGO
 - ★Special Bonus★
@@ -63,3 +63,4 @@ tags:
 - 所有本地图片经过TinyPNG压缩 (话说也没减多少体积 大概已经被压缩过了)
 - 主页LOGO替换为[ミク くるくる着替え 作者:bororu](https://www.pixiv.net/member.php?id=137115)系列的随机图片
 - 搜索框 (真的能叫框吗?) 字体颜色改为白色
+- Daily_Pic增加悬浮阴影效果
