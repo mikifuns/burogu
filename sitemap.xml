@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://crs.mainstars.net/burogu/2018/03/gitalk-customstyle/</loc>
+    
+    <lastmod>2018-03-08T18:30:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://crs.mainstars.net/burogu/404.html</loc>
     
     <lastmod>2018-03-06T18:15:14.501Z</lastmod>
@@ -37,28 +44,21 @@
   </url>
   
   <url>
-    <loc>https://crs.mainstars.net/burogu/2018/03/03/re-start/</loc>
+    <loc>https://crs.mainstars.net/burogu/2018/03/re-start/</loc>
     
     <lastmod>2018-03-05T18:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://crs.mainstars.net/burogu/2018/03/06/materialw-for-hexo/</loc>
+    <loc>https://crs.mainstars.net/burogu/2018/03/materialw-for-hexo/</loc>
     
     <lastmod>2018-03-05T17:30:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://crs.mainstars.net/burogu/2018/03/03/githubpages-hexo/</loc>
-    
-    <lastmod>2018-03-02T23:30:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://crs.mainstars.net/burogu/2018/03/02/hello-world/</loc>
+    <loc>https://crs.mainstars.net/burogu/2018/03/hello-world/</loc>
     
     <lastmod>2018-02-25T13:38:15.982Z</lastmod>
     
