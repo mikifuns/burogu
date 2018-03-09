@@ -18,8 +18,8 @@
   
   <entry>
     <title>Gitalk 自定义样式</title>
-    <link href="https://crs.mainstars.net/burogu/2018/03/gitalk-customstyle/"/>
-    <id>https://crs.mainstars.net/burogu/2018/03/gitalk-customstyle/</id>
+    <link href="https://crs.mainstars.net/burogu/post/gitalk-customstyle/"/>
+    <id>https://crs.mainstars.net/burogu/post/gitalk-customstyle/</id>
     <published>2018-03-08T18:30:00.000Z</published>
     <updated>2018-03-08T18:30:00.000Z</updated>
     
@@ -31,19 +31,19 @@
     
     </summary>
     
-      <category term="折腾" scheme="https://crs.mainstars.net/burogu/categories/%E6%8A%98%E8%85%BE/"/>
+      <category term="折腾" scheme="https://crs.mainstars.net/burogu/categorie/%E6%8A%98%E8%85%BE/"/>
     
     
-      <category term="Gitalk" scheme="https://crs.mainstars.net/burogu/tags/Gitalk/"/>
+      <category term="Gitalk" scheme="https://crs.mainstars.net/burogu/tag/Gitalk/"/>
     
-      <category term="Materialw" scheme="https://crs.mainstars.net/burogu/tags/Materialw/"/>
+      <category term="Materialw" scheme="https://crs.mainstars.net/burogu/tag/Materialw/"/>
     
   </entry>
   
   <entry>
     <title>Materialw for Hexo</title>
-    <link href="https://crs.mainstars.net/burogu/2018/03/materialw-for-hexo/"/>
-    <id>https://crs.mainstars.net/burogu/2018/03/materialw-for-hexo/</id>
+    <link href="https://crs.mainstars.net/burogu/post/materialw-for-hexo/"/>
+    <id>https://crs.mainstars.net/burogu/post/materialw-for-hexo/</id>
     <published>2018-03-05T17:00:00.000Z</published>
     <updated>2018-03-05T17:30:00.000Z</updated>
     
@@ -55,19 +55,19 @@
     
     </summary>
     
-      <category term="折腾" scheme="https://crs.mainstars.net/burogu/categories/%E6%8A%98%E8%85%BE/"/>
+      <category term="折腾" scheme="https://crs.mainstars.net/burogu/categorie/%E6%8A%98%E8%85%BE/"/>
     
     
-      <category term="Materialw" scheme="https://crs.mainstars.net/burogu/tags/Materialw/"/>
+      <category term="Materialw" scheme="https://crs.mainstars.net/burogu/tag/Materialw/"/>
     
-      <category term="Hexo" scheme="https://crs.mainstars.net/burogu/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://crs.mainstars.net/burogu/tag/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Re: Start</title>
-    <link href="https://crs.mainstars.net/burogu/2018/03/re-start/"/>
-    <id>https://crs.mainstars.net/burogu/2018/03/re-start/</id>
+    <link href="https://crs.mainstars.net/burogu/post/re-start/"/>
+    <id>https://crs.mainstars.net/burogu/post/re-start/</id>
     <published>2018-03-02T16:30:00.000Z</published>
     <updated>2018-03-05T18:00:00.000Z</updated>
     
@@ -79,19 +79,19 @@
     
     </summary>
     
-      <category term="杂谈" scheme="https://crs.mainstars.net/burogu/categories/%E6%9D%82%E8%B0%88/"/>
+      <category term="杂谈" scheme="https://crs.mainstars.net/burogu/categorie/%E6%9D%82%E8%B0%88/"/>
     
     
-      <category term="Hexo" scheme="https://crs.mainstars.net/burogu/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://crs.mainstars.net/burogu/tag/Hexo/"/>
     
-      <category term="Blog" scheme="https://crs.mainstars.net/burogu/tags/Blog/"/>
+      <category term="Blog" scheme="https://crs.mainstars.net/burogu/tag/Blog/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://crs.mainstars.net/burogu/2018/03/hello-world/"/>
-    <id>https://crs.mainstars.net/burogu/2018/03/hello-world/</id>
+    <link href="https://crs.mainstars.net/burogu/post/hello-world/"/>
+    <id>https://crs.mainstars.net/burogu/post/hello-world/</id>
     <published>2018-03-02T10:42:06.970Z</published>
     <updated>2018-02-25T13:38:15.982Z</updated>
     
