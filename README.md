@@ -1,4 +1,6 @@
-## CRS' Burogu, »ùÓÚHexo´î½¨.
+## CRS' Burogu, åŸºäºHexoæ­å»º.
 
-- Master·ÖÖ§: ËùÓĞÔ´Âë  
-- GH-Pages·ÖÖ§: ¾²Ì¬Ò³Ãæ  
+- Masteråˆ†æ”¯: æ‰€æœ‰æºç   
+- GH-Pagesåˆ†æ”¯: é™æ€é¡µé¢  
+
+å¤‡ä»½
